@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=박남영&fontSize=65&fontColor=ffffff&fontAlignY=38&desc=Game%20Dev%20%E2%86%92%20AI%20Developer&descAlignY=58&descSize=24&animation=fadeIn" width="100%" />
+<img src="./assets/banner.svg" width="100%" />
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&width=680&lines=3D+Artist+%26+Game+Client+Developer+%F0%9F%8E%AE;AI+%2F+ML+%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A1%9C+%EC%84%B1%EC%9E%A5+%EC%A4%91+%F0%9F%8C%B1;Unity+%7C+Unreal+Engine+5+%7C+Python)](https://git.io/typing-svg)
 
