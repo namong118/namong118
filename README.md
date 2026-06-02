@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=박남영&fontSize=65&fontColor=ffffff&fontAlignY=38&desc=Game%20Dev%20%E2%86%92%20AI%20Developer&descAlignY=58&descSize=24&animation=fadeIn" width="100%" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&width=680&lines=3D+Artist+%26+Game+Client+Developer+%F0%9F%8E%AE;AI+%2F+ML+%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A1%9C+%EC%84%B1%EC%9E%A5+%EC%A4%91+%F0%9F%8C%B1;Unity+%7C+Unreal+Engine+5+%7C+Python;OPIC+AL+%C2%B7+TOEIC+945)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&width=680&lines=3D+Artist+%26+Game+Client+Developer+%F0%9F%8E%AE;AI+%2F+ML+%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A1%9C+%EC%84%B1%EC%9E%A5+%EC%A4%91+%F0%9F%8C%B1;Unity+%7C+Unreal+Engine+5+%7C+Python)](https://git.io/typing-svg)
 
 </div>
 
@@ -26,12 +26,8 @@
   <tr>
     <td>📧 이메일</td>
     <td><a href="mailto:nmnmxe@gmail.com">nmnmxe@gmail.com</a></td>
-    <td>🌐 영어</td>
-    <td>OPIC AL · TOEIC 945</td>
-  </tr>
-  <tr>
     <td>🎓 학력</td>
-    <td colspan="3">ICT 융합 콘텐츠 전공 (편입 재학 중) · 시각정보디자인 졸업 (3.9/4.5)</td>
+    <td>시각정보디자인 졸업</td>
   </tr>
 </table>
 
@@ -63,21 +59,6 @@
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
 ![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
 ![SourceTree](https://img.shields.io/badge/SourceTree-0052CC?style=for-the-badge&logo=sourcetree&logoColor=white)
-
-<br/>
-
----
-
-## 🌱 Currently Learning
-
-```python
-goal = {
-    "현재": "ICT 융합 콘텐츠 전공 재학 중",
-    "목표": "AI / ML 개발자 전환",
-    "학습 중": ["Python", "Machine Learning", "Deep Learning"],
-    "강점": "게임 개발 경험 + 3D 시각화 + 영어 커뮤니케이션"
-}
-```
 
 <br/>
 
