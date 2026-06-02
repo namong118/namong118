@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 200" width="860" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0f0c29"/>
+      <stop offset="100%" stop-color="#1a0d2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#1e1b4b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1e1040" stop-opacity="0.6"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- BG -->
+  <rect width="860" height="200" rx="16" fill="url(#bg)"/>
+  <rect width="860" height="200" rx="16" fill="none" stroke="#a78bfa" stroke-opacity="0.2" stroke-width="1"/>
+
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="4" height="200" rx="2" fill="url(#accent)"/>
+
+  <!-- Section title -->
+  <text x="36" y="42" font-family="'Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#a78bfa" letter-spacing="3" opacity="0.8">ABOUT ME</text>
+  <rect x="36" y="48" width="60" height="1.5" rx="1" fill="url(#accent)" opacity="0.6"/>
+
+  <!-- Quote / description -->
+  <text x="36" y="80" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#e0d4ff" opacity="0.9">
+    게임 클라이언트 개발과 3D 아트 3년 4개월 경력을 바탕으로
+  </text>
+  <text x="36" y="102" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#e0d4ff" opacity="0.9">
+    AI 개발자로의 전환을 준비하고 있습니다.
+  </text>
+  <text x="36" y="124" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#9d8fcc" opacity="0.75">
+    시각적 감각과 개발 역량을 결합해 더 넓은 가능성을 탐구 중입니다.
+  </text>
+
+  <!-- Divider -->
+  <line x1="36" y1="148" x2="480" y2="148" stroke="#a78bfa" stroke-opacity="0.15" stroke-width="1"/>
+
+  <!-- Info items -->
+  <!-- Location -->
+  <rect x="36"  y="162" width="10" height="10" rx="5" fill="#a78bfa" opacity="0.7"/>
+  <text x="52"  y="172" font-family="'Consolas',monospace" font-size="12" fill="#9d8fcc">위치</text>
+  <text x="88"  y="172" font-family="'Apple SD Gothic Neo',sans-serif" font-size="12" fill="#e0d4ff">대한민국</text>
+
+  <!-- Career -->
+  <rect x="220" y="162" width="10" height="10" rx="5" fill="#60a5fa" opacity="0.7"/>
+  <text x="236" y="172" font-family="'Consolas',monospace" font-size="12" fill="#9d8fcc">경력</text>
+  <text x="268" y="172" font-family="'Apple SD Gothic Neo',sans-serif" font-size="12" fill="#e0d4ff">3년 4개월 · 게임 클라이언트 / 3D</text>
+
+  <!-- Email -->
+  <rect x="36"  y="182" width="10" height="10" rx="5" fill="#f472b6" opacity="0.7"/>
+  <text x="52"  y="192" font-family="'Consolas',monospace" font-size="12" fill="#9d8fcc">이메일</text>
+  <text x="104" y="192" font-family="'Consolas',monospace" font-size="12" fill="#c4b5fd">nmnmxe@gmail.com</text>
+
+  <!-- Education -->
+  <rect x="220" y="182" width="10" height="10" rx="5" fill="#34d399" opacity="0.7"/>
+  <text x="236" y="192" font-family="'Consolas',monospace" font-size="12" fill="#9d8fcc">학력</text>
+  <text x="268" y="192" font-family="'Apple SD Gothic Neo',sans-serif" font-size="12" fill="#e0d4ff">시각정보디자인 졸업</text>
+
+  <!-- Right side decorative element -->
+  <g opacity="0.12">
+    <circle cx="760" cy="100" r="80" fill="none" stroke="#a78bfa" stroke-width="1"/>
+    <circle cx="760" cy="100" r="55" fill="none" stroke="#60a5fa" stroke-width="1"/>
+    <circle cx="760" cy="100" r="30" fill="none" stroke="#f472b6" stroke-width="1"/>
+    <circle cx="760" cy="100" r="5" fill="#a78bfa" opacity="0.4"/>
+  </g>
+  <text x="760" y="106" font-family="'Consolas',monospace" font-size="10" fill="#a78bfa" opacity="0.25" text-anchor="middle">namong118</text>
+</svg>

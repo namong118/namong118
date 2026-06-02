@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 260" width="860" height="260">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0f0c29"/>
+      <stop offset="100%" stop-color="#1a0d2e"/>
+    </linearGradient>
+    <linearGradient id="gAI"   x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed"/><stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="gGame" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1d4ed8"/><stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="g3D"   x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9d174d"/><stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <linearGradient id="gTool" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#065f46"/><stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+
+  <!-- BG -->
+  <rect width="860" height="260" rx="16" fill="url(#bg)"/>
+  <rect width="860" height="260" rx="16" fill="none" stroke="#a78bfa" stroke-opacity="0.2" stroke-width="1"/>
+
+  <!-- Left bar -->
+  <rect x="0" y="0" width="4" height="260" rx="2">
+    <animate attributeName="fill" values="#a78bfa;#60a5fa;#f472b6;#a78bfa" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Section title -->
+  <text x="36" y="42" font-family="'Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#a78bfa" letter-spacing="3" opacity="0.8">TECH STACK</text>
+  <rect x="36" y="48" width="70" height="1.5" rx="1" fill="url(#gAI)" opacity="0.6"/>
+
+  <!-- ── Row 1: AI/ML ── -->
+  <!-- Category label -->
+  <rect x="36" y="66" width="90" height="20" rx="10" fill="url(#gAI)" fill-opacity="0.2" stroke="#a78bfa" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="81" y="80" font-family="'Consolas',monospace" font-size="11" fill="#c4b5fd" text-anchor="middle" font-weight="600">AI / ML</text>
+
+  <!-- Skill pills -->
+  <rect x="136" y="66" width="62" height="20" rx="10" fill="#3776AB" fill-opacity="0.25" stroke="#3776AB" stroke-opacity="0.5" stroke-width="1"/>
+  <text x="167" y="80" font-family="monospace" font-size="11" fill="#93c5fd" text-anchor="middle">Python</text>
+
+  <rect x="206" y="66" width="82" height="20" rx="10" fill="#FF6F00" fill-opacity="0.2" stroke="#FF6F00" stroke-opacity="0.45" stroke-width="1"/>
+  <text x="247" y="80" font-family="monospace" font-size="11" fill="#fbbf24" text-anchor="middle">TensorFlow</text>
+
+  <rect x="296" y="66" width="66" height="20" rx="10" fill="#EE4C2C" fill-opacity="0.2" stroke="#EE4C2C" stroke-opacity="0.45" stroke-width="1"/>
+  <text x="329" y="80" font-family="monospace" font-size="11" fill="#fca5a5" text-anchor="middle">PyTorch</text>
+
+  <!-- ── Row 2: Game Dev ── -->
+  <rect x="36" y="102" width="116" height="20" rx="10" fill="url(#gGame)" fill-opacity="0.2" stroke="#60a5fa" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="94" y="116" font-family="'Consolas',monospace" font-size="11" fill="#93c5fd" text-anchor="middle" font-weight="600">Game Dev</text>
+
+  <rect x="160" y="102" width="54" height="20" rx="10" fill="#ffffff" fill-opacity="0.1" stroke="#ffffff" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="187" y="116" font-family="monospace" font-size="11" fill="#e2e8f0" text-anchor="middle">Unity</text>
+
+  <rect x="222" y="102" width="86" height="20" rx="10" fill="#0E1128" fill-opacity="0.6" stroke="#60a5fa" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="265" y="116" font-family="monospace" font-size="11" fill="#93c5fd" text-anchor="middle">Unreal 5</text>
+
+  <rect x="316" y="102" width="40" height="20" rx="10" fill="#239120" fill-opacity="0.2" stroke="#239120" stroke-opacity="0.45" stroke-width="1"/>
+  <text x="336" y="116" font-family="monospace" font-size="11" fill="#86efac" text-anchor="middle">C#</text>
+
+  <rect x="364" y="102" width="42" height="20" rx="10" fill="#00599C" fill-opacity="0.2" stroke="#00599C" stroke-opacity="0.45" stroke-width="1"/>
+  <text x="385" y="116" font-family="monospace" font-size="11" fill="#93c5fd" text-anchor="middle">C++</text>
+
+  <!-- ── Row 3: 3D Art ── -->
+  <rect x="36" y="138" width="76" height="20" rx="10" fill="url(#g3D)" fill-opacity="0.2" stroke="#f472b6" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="74" y="152" font-family="'Consolas',monospace" font-size="11" fill="#f9a8d4" text-anchor="middle" font-weight="600">3D / Art</text>
+
+  <rect x="120" y="138" width="70" height="20" rx="10" fill="#37A5CC" fill-opacity="0.2" stroke="#37A5CC" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="155" y="152" font-family="monospace" font-size="11" fill="#7dd3fc" text-anchor="middle">3ds Max</text>
+
+  <rect x="198" y="138" width="64" height="20" rx="10" fill="#E8572A" fill-opacity="0.2" stroke="#E8572A" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="230" y="152" font-family="monospace" font-size="11" fill="#fca5a5" text-anchor="middle">ZBrush</text>
+
+  <rect x="270" y="138" width="148" height="20" rx="10" fill="#FF7139" fill-opacity="0.2" stroke="#FF7139" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="344" y="152" font-family="monospace" font-size="11" fill="#fdba74" text-anchor="middle">Substance Painter</text>
+
+  <rect x="426" y="138" width="88" height="20" rx="10" fill="#31A8FF" fill-opacity="0.2" stroke="#31A8FF" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="470" y="152" font-family="monospace" font-size="11" fill="#7dd3fc" text-anchor="middle">Photoshop</text>
+
+  <!-- ── Row 4: Tools ── -->
+  <rect x="36" y="174" width="62" height="20" rx="10" fill="url(#gTool)" fill-opacity="0.2" stroke="#34d399" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="67" y="188" font-family="'Consolas',monospace" font-size="11" fill="#6ee7b7" text-anchor="middle" font-weight="600">Tools</text>
+
+  <rect x="106" y="174" width="62" height="20" rx="10" fill="#181717" fill-opacity="0.5" stroke="#6b7280" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="137" y="188" font-family="monospace" font-size="11" fill="#d1d5db" text-anchor="middle">GitHub</text>
+
+  <rect x="176" y="174" width="64" height="20" rx="10" fill="#D24939" fill-opacity="0.2" stroke="#D24939" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="208" y="188" font-family="monospace" font-size="11" fill="#fca5a5" text-anchor="middle">Jenkins</text>
+
+  <rect x="248" y="174" width="48" height="20" rx="10" fill="#4A154B" fill-opacity="0.4" stroke="#a78bfa" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="272" y="188" font-family="monospace" font-size="11" fill="#c4b5fd" text-anchor="middle">Slack</text>
+
+  <rect x="304" y="174" width="84" height="20" rx="10" fill="#0052CC" fill-opacity="0.2" stroke="#0052CC" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="346" y="188" font-family="monospace" font-size="11" fill="#93c5fd" text-anchor="middle">SourceTree</text>
+
+  <rect x="396" y="174" width="40" height="20" rx="10" fill="#F05032" fill-opacity="0.2" stroke="#F05032" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="416" y="188" font-family="monospace" font-size="11" fill="#fca5a5" text-anchor="middle">Git</text>
+
+  <!-- Divider -->
+  <line x1="36" y1="214" x2="824" y2="214" stroke="#a78bfa" stroke-opacity="0.1" stroke-width="1"/>
+
+  <!-- Footer note -->
+  <text x="36" y="238" font-family="'Consolas',monospace" font-size="11" fill="#6b7280">
+    <tspan fill="#a78bfa" opacity="0.6">//</tspan>
+    <tspan fill="#6b7280" opacity="0.7"> Game Dev · 3D Art 3년 4개월 경력  |  AI/ML 전환 준비 중</tspan>
+  </text>
+
+  <!-- Right deco -->
+  <g opacity="0.07">
+    <circle cx="800" cy="180" r="55" fill="none" stroke="#a78bfa" stroke-width="1"/>
+    <circle cx="800" cy="180" r="35" fill="none" stroke="#60a5fa" stroke-width="1"/>
+    <circle cx="800" cy="180" r="15" fill="#a78bfa"/>
+  </g>
+</svg>

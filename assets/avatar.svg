@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0f0c29"/>
+      <stop offset="50%"  stop-color="#1a0d2e"/>
+      <stop offset="100%" stop-color="#0d0d1a"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#a78bfa"/>
+      <stop offset="50%"  stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <linearGradient id="innerRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#a78bfa" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="0" stdDeviation="16" flood-color="#a78bfa" flood-opacity="0.45"/>
+    </filter>
+    <filter id="glyph-shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#7c3aed" flood-opacity="0.6"/>
+    </filter>
+    <clipPath id="circle">
+      <circle cx="200" cy="200" r="200"/>
+    </clipPath>
+  </defs>
+
+  <!-- BG circle -->
+  <circle cx="200" cy="200" r="200" fill="url(#bg)"/>
+
+  <!-- Glow -->
+  <circle cx="200" cy="200" r="200" fill="url(#glow)"/>
+
+  <!-- Grid lines -->
+  <g clip-path="url(#circle)" stroke="#a78bfa" stroke-opacity="0.05" stroke-width="1">
+    <line x1="0"   y1="100" x2="400" y2="100"/>
+    <line x1="0"   y1="200" x2="400" y2="200"/>
+    <line x1="0"   y1="300" x2="400" y2="300"/>
+    <line x1="100" y1="0"   x2="100" y2="400"/>
+    <line x1="200" y1="0"   x2="200" y2="400"/>
+    <line x1="300" y1="0"   x2="300" y2="400"/>
+  </g>
+
+  <!-- Outer gradient ring -->
+  <circle cx="200" cy="200" r="185" fill="none" stroke="url(#ring)" stroke-width="4" opacity="0.9" filter="url(#shadow)"/>
+
+  <!-- Inner ring -->
+  <circle cx="200" cy="200" r="168" fill="none" stroke="url(#innerRing)" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Corner accents -->
+  <path d="M 200 30 A 170 170 0 0 1 330 105" fill="none" stroke="#a78bfa" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 70 295 A 170 170 0 0 1 70 105" fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" opacity="0.25"/>
+
+  <!-- Particle dots -->
+  <circle cx="120" cy="80"  r="3" fill="#a78bfa" opacity="0.7"/>
+  <circle cx="290" cy="65"  r="2" fill="#60a5fa" opacity="0.6"/>
+  <circle cx="340" cy="160" r="2.5" fill="#f472b6" opacity="0.5"/>
+  <circle cx="75"  cy="290" r="2" fill="#a78bfa" opacity="0.5"/>
+  <circle cx="320" cy="320" r="3" fill="#60a5fa" opacity="0.4"/>
+  <circle cx="170" cy="345" r="2" fill="#f472b6" opacity="0.5"/>
+
+  <!-- Main character — 박 -->
+  <text
+    x="200" y="230"
+    font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif"
+    font-size="140"
+    font-weight="800"
+    fill="white"
+    text-anchor="middle"
+    filter="url(#glyph-shadow)"
+    opacity="0.95"
+  >박</text>
+
+  <!-- Sub label -->
+  <rect x="120" y="262" width="160" height="28" rx="14" fill="#a78bfa" fill-opacity="0.18" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="1"/>
+  <text
+    x="200" y="281"
+    font-family="'Consolas','Fira Code',monospace"
+    font-size="13"
+    font-weight="600"
+    fill="#c4b5fd"
+    text-anchor="middle"
+    letter-spacing="2"
+  >AI Developer</text>
+
+  <!-- Bottom accent line -->
+  <line x1="160" y1="308" x2="240" y2="308" stroke="url(#ring)" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+</svg>
